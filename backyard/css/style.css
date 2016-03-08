@@ -1,0 +1,78 @@
+body {
+    font-family: arial;
+}
+header {
+    background: white;
+    padding: 1% 0;
+}
+header img {
+    width: 100%;
+}
+header nav {
+    margin: 14px 0;
+    font-size: 10px;
+    font-weight: 600;
+}
+header nav a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+}
+.informacion {
+    background: grey;
+    color:white;
+    padding: 5% 0;
+}
+.informacion .block-left {
+    width: 60%;
+    float: left;
+}
+.informacion h1 {
+    font-size: 40px;
+}
+.informacion p {
+    margin: 5% 0;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.informacion .block-right {
+    width: 30%;
+    float: right;
+    padding: 2%;
+    background: rgba(255,255,255,0.2);
+    text-align:center;
+    border-radius: 5%; 
+}
+@media (max-width: 499px) {
+    .block-left{
+        width: 100%;
+    }
+    .block-right{
+        width: 100%;
+    }
+}
+.informacion .block-right input {
+    width: 100%;
+    height: 24px;
+    margin: 2% 0;
+    padding: 0 3px;
+    font-size: 11px;
+}
+.informacion .block-right button {
+    width: 100%;
+    background: #3EB0F7;
+    border: none;
+    color: white;
+    height: 28px;
+    margin: 2% 0;
+}
+footer p {
+    color: gray;
+    font-size: 12px;
+    margin: 2% 0;
+}
+footer a {
+    text-decoration: none;
+}
